@@ -1,0 +1,2 @@
+# Pinyin Syllable Count Generator Working Draft Notes
+This document details the process of experimentation related to the construction of the Pinyin Syllable Count Generator module. The module takes two columns of string data, one with unboken text in Chinese, the other with its pinyin counterpart. The package will evaluate the number of syllables in the chinese text based on the number of syllables it can detect in the supplied Latin characters. The results will be delivered as integers with commas separating the syllables in each individual word.
